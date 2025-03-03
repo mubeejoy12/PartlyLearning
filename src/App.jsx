@@ -4,8 +4,6 @@ import { AuthProvider } from "./contexts/AuthContext";
 import ThemeContext, { ThemeProvider } from "./contexts/ThemeContext";
 
 function App() {
-  
-
   return (
     <ThemeProvider>
       <AuthProvider>
@@ -13,6 +11,7 @@ function App() {
       </AuthProvider>
       <Child />
     </ThemeProvider>
+  );
 }
 
-export default App
+export default App;
