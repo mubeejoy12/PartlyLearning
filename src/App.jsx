@@ -1,4 +1,5 @@
 import { AuthProvider } from "./contexts/AuthContext";
+import ThemeContext, { ThemeProvider } from "./contexts/ThemeContext";
 
 function App() {
   
