@@ -7,10 +7,12 @@ function App() {
   
 
   return (
-    <>
-     <p>hello world</p>
-    </>
-  )
+    <ThemeProvider>
+      <AuthProvider>
+        <LoginStatus/>
+      </AuthProvider>
+      <Child />
+    </ThemeProvider>
 }
 
 export default App
